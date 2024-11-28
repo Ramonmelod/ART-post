@@ -5,11 +5,19 @@
 - To set a virtual environment for python run the command:
 
 ```sh
-  python -m venv environment_name
+  python -m venv virtual_env
 ```
 
 then:
 
 ```sh
-  source environment_name/bin/activate
+  source virtual_env/bin/activate
+```
+
+### Installing the project dependencies:
+
+- To install this project dependencies run the command bellow:
+
+```sh
+  pip install -r requirements.txt
 ```
