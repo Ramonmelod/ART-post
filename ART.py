@@ -38,7 +38,7 @@ senha = driver.find_element(
 senha.send_keys("aqui_sua_senha")
 entrar = driver.find_element(
     by=By.XPATH, value="//*[@id='autenticacao:entrarEmpresa']")
-entrar.click
+entrar.click()
 
 # CADASTRAR ART
 time.sleep(120)
