@@ -2,3 +2,4 @@ CI/
 .ipynb_checkpoints
 Automatizar ART.ipynb
 virtual_env/
+.env
